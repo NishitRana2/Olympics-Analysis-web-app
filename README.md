@@ -9,6 +9,7 @@ This project is a **data-driven Olympics Analysis Web Application** built using 
 - [Features](#features)
 - [Installation](#installation)
 - [Requirements](#requirements)
+- [Dataset](#dataset)
 - [Usage](#usage)
 - [Contributing](#contributing)
 
@@ -44,6 +45,34 @@ To run this project, ensure Python 3.10 or higher is installed. Follow these ste
     ```bash
     pip install -r requirements.txt
     ```
+
+## Requirements
+
+Make sure the following libraries are installed (automatically handled via `requirements.txt`):
+
+- `pandas` – for data manipulation and preprocessing  
+- `numpy` – for numerical operations  
+- `seaborn` – for statistical visualizations  
+- `matplotlib` – backend for Seaborn plots  
+- `plotly` – for interactive charts and graphs  
+- `streamlit` – to build and serve the web application  
+- `scipy` – required by `plotly.figure_factory.create_distplot`  
+- `scikit-learn` – for any potential future ML extensions
+
+These are included in the `requirements.txt`, but if needed individually:
+
+```bash
+pip install pandas numpy seaborn matplotlib plotly streamlit scipy scikit-learn
+```
+
+## Dataset
+
+This project uses the **Olympics History Dataset** available on Kaggle:
+
+🔗 **Download Dataset:**  
+https://www.kaggle.com/datasets/heesoo37/120-years-of-olympic-history-athletes-and-results
+
+After downloading, extract and place the  files in the root directory inside your project:
 
 ## Usage
 
