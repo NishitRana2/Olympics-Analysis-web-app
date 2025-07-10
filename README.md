@@ -10,7 +10,6 @@ This project is a **data-driven Olympics Analysis Web Application** built using 
 - [Installation](#installation)
 - [Requirements](#requirements)
 - [Usage](#usage)
-- [Data Analysis](#data-analysis)
 - [Contributing](#contributing)
 
 ## Overview
@@ -55,10 +54,10 @@ streamlit run app.py
 
 - This will start the Streamlit server, and you can interact with the app via your web browser.
 
-- Select different years and countries to view medal tallies
-- Explore overall Olympics trends such as number of athletes, events, and nations
-- Analyze country-wise performance across various sports and years
-- View athlete insights, including distribution of age, gender, and sports participation
+Select different years and countries to view medal tallies
+Explore overall Olympics trends such as number of athletes, events, and nations
+Analyze country-wise performance across various sports and years
+View athlete insights, including distribution of age, gender, and sports participation
 
 ## Contributing
 Contributions are welcome! Please feel free to submit a Pull Request or open an issue to discuss any changes or improvements.
